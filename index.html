@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TECHsolutions</title>
+
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<header class="jumbotron jumbotron-fluid">
+    <div class="container">
+        <div class="row row-content">
+
+            <div class="col-4 col-sm-3 col-md-2 align-self-center">
+               <img src="Img/logo.png" class="img-fluid" alt="Site logo"> 
+            </div>
+
+            <div class="col">
+                <h1>TECH solutions</h1>
+                <h5>reliable and cost-effective IT services</h2>
+            </div>
+
+            <div class="col-md-4 col-xl-2 mt-4">
+                <a role="button" class="btn btn-primary btn-lg text-white " data-toggle="modal" data-target="#getHelp">Get Help Today </a>
+            </div>
+
+        </div>
+    </div>
+</header>
+<div class="modal fade" id="getHelp" role="dialog">
+    <div class="modal-dialog modal-lg" role="document">
+      <div class="modal-content">
+        <div class="modal-header bg-primary text-white">
+          <h3 class="modal-title">Get Help Today</h3>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+
+        <div class="modal-body">
+            <div class="container-fluid">
+                <form>
+                    <div class="form-group row">
+                        <label class=" col-sm-3 col-form-label text-white" for="name">Name</label> 
+                        <div class="col">
+                        <input type="text" name="name" id="name" placeholder="First and Last name" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                      <label class="col-sm-3 col-form-label text-white" for="phone">Phone</label>
+                      <div class="col">
+                      <input type="tel" name="phone" id="phone" class="form-control" placeholder="Phone Number">
+                      </div>
+                  </div>
+
+                    <div class="row form-group">
+                        <label class="col-sm-3 col-form-label text-white" for="email">Email</label>
+                        <div class="col">
+                        <input type="email" name="email" id="email" class="form-control" placeholder="Email Address">
+                        </div>
+                    </div>
+
+                    <div class="row form-group">
+                      <label class="col-sm-3 col-form-label text-white" for="address">Address</label>
+                      <div class="col">
+                      <input type="address" name="address" id="address" class ="form-control"  placeholder="Street, city, zip code, state">
+                      </div>
+                  </div>
+
+                  <div class="row">
+                      <label class="col-sm-3 col-form-label text-white" for="message">Message</label>
+                      <div class="col">
+                        <textarea class="form-control" name="message" id="message" placeholder="Message" cols="42"></textarea>
+                      </div>
+                  </div>
+
+                  </div>
+                  <div class="row form-group">
+                    <div class="col">
+                      <button type="submit" class="btn btn-primary">Submit</button>
+                      <button type="button" class="btn btn-secondary" data-dismiss="modal">Cancel</button>
+                    </div>
+                  </div>
+                </form>
+            </div>
+        </div>
+    </div>
+  </div>
+
+  <script src="node_modules/jquery/dist/jquery.slim.min.js"></script>
+  <script src="node_modules/popper.js/dist/popper-utils.min.js"></script>
+  <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+
+
+
+
+
+
+<body>
+    
+</body>
+</html>

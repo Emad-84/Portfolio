@@ -1,0 +1,14 @@
+.jumbotron {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+h1, h2, h3, h5 {
+    font-family: 'New Tegomin', serif;
+}
+
+.modal-body {
+    background-color:rgba(0,0,0,0.85);
+}
