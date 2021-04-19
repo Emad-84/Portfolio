@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
     color: white;
+    
+    
 }
 
 h1, h2, h3, h5 {
@@ -12,3 +14,43 @@ h1, h2, h3, h5 {
 .modal-body {
     background-color:rgba(0,0,0,0.85);
 }
+
+.navbar {
+    background-color:#0b5c99;
+    
+    
+}
+
+.az {
+    background-color:#0b5c99;
+}
+
+
+
+.carousel-caption {
+    background-color: rgba(0, 0, 0, 0.5);
+    font-weight: bold;
+}
+
+.carousel {
+    border: solid #0b5c99;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+    
+    
+}
+
+html {
+    background-image: url(Img/a.jpg);
+}
+
+
+.card img {
+    height: 170px;
+}
+    
+    
