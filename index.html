@@ -13,6 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=New+Tegomin&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
+<body>
 
 <header class="jumbotron align-self-center jumbotron-fluid">
     <div class="container">
@@ -109,7 +110,7 @@
           <a class="nav-link" href="#">HOME</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">SERVICES</a>
+          <a class="nav-link" href="services.html">SERVICES</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">ABOUT</a>
@@ -188,7 +189,7 @@
       </div>
       <div class="col-md-3">
         <div class="card" style="width: 18rem">
-          <a href="#"><img class="card-img-top" src="Img/u.png.crdownload" alt="Card image computers"></a>
+          <a href="#"><img class="card-img-top" src="Img/z.png" alt="Card image computers"></a>
           <div class="card-body">
             <p class="card-text">Cell phones repair  <br><a href="#"><i class="fa fa-tag"></i>Avg. Project:&#36;50 - &#36;180 </a></p>
             </div>
@@ -218,7 +219,120 @@
             </div>
         </div>
       </div>
+     </div>
+     
+     
+     <form class="appt">
+          
+            <div class="row form-group">
+              <div class="col col-form-label">
+            <h2 class="legend">SCHEDULE AN APPOINTMENT</h2>
+          </div>
+          </div>
+          <div class="form-group row">
+              <label class=" col-sm-2 col-form-label text-white ml-5" for="name">Name</label> 
+              <div class="col">
+              <input type="text" name="name" id="name" placeholder="First and Last name" class="form-control">
+              </div>
+          </div>
+
+          <div class="row form-group">
+            <label class="col-sm-2 col-form-label text-white ml-5" for="phone">Phone</label>
+            <div class="col">
+            <input type="tel" name="phone" id="phone" class="form-control" placeholder="Phone Number">
+            </div>
+        </div>
+
+          <div class="row form-group">
+              <label class="col-sm-2 col-form-label text-white ml-5" for="email">Email</label>
+              <div class="col">
+              <input type="email" name="email" id="email" class="form-control" placeholder="Email Address">
+              </div>
+          </div>
+
+          <div class="row form-group">
+            <label class="col-sm-2 col-form-label text-white ml-5" for="address">Address</label>
+            <div class="col">
+            <input type="address" name="address" id="address" class ="form-control"  placeholder="Street, city, zip code, state">
+            </div>
+        </div>
+
+        <div class="row">
+            <label class="col-sm-2 col-form-label text-white ml-5" for="message">Day and Time</label>
+            <div class="col-sm-2 col-form-label">
+              <select name="message" id="message">
+                <option value="choose">Day</option>
+                <option value="monday">Monday</option>
+                <option value="tuesday">Tuesday</option>
+                <option value="wednesday">Wednesday</option>
+                <option value="thursday">Thursday</option>
+                <option value="friday">Friday</option>
+                
+              </select>
+              </div>
+              <div class="col-sm-2 col-form-label">
+                <select name="message" id="message">
+                  <option value="choose">Time</option>
+                  <option value="8-12">8am-12pm</option>
+                  <option value="12-4">12pm-4pm</option>
+                  </select>
+              </div>
+            </div>
+        </div>
+
+        
+        <div class="row btnAppt form-group">
+          <div class="col">
+            <button type="submit" class="btn btn2 btn-primary">Submit</button>
+             </div>
+        </div>
+      </form>
+ </div>
+    
+  <div class="footer">
+    <div class="container">
+      <div class="row footer-list">
+        <div class="col-sm-3 offset-1">
+          <h4>Quick Links</h4>
+          <ul class="list-unstyled">
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact Us</a></li>
+          </ul>
+        </div>
+      
+        <div class="col-sm-4">
+          <h4>Techs In A Sec</h4>
+          <ul class="list-unstyled">
+            <li class="links"><a href=""><i class="fa fa-map-marker"></i>1111 A Street, San Francisco CA 94000</a> </li>
+            <li class="links"><a href="tel:1-800-532-4602"><i class="fa fa-phone">1-800-532-4602</i></a></li>
+            <li class="links"><i class="fa fa-envelope"><a href="mailto:Emad.Adas@yahoo.com">Emad.Adas@yahoo.com</a></i></li>
+            <li class="links">
+              <a class="btn btn-social-icon btn-instagram" href="http://instagram.com/"><i class="fa fa-instagram"></i></a>
+              <a class="btn btn-social-icon btn-facebook" href="http://facebook.com/"><i class="fa fa-facebook"></i></a>
+              <a class="btn btn-social-icon btn-twitter" href="http://twitter.com/"><i class="fa fa-twitter"></i></a>
+              <a class="btn btn-social-icon btn-google" href="http://youtube.com/"><i class="fa fa-youtube"></i></a>
+              </li>
+            </ul>
+          </div>
+          <div class="col-sm-4">
+            <h4 class="ml-4">Services</h4>
+            <ul>
+              <li><a href="services.html">Laptop Screens Replacment </a></li>
+              <li><a href="services.html">Cell Phones Screens Replacment </a></li>
+              <li><a href="services.html">Broadband Installation/Repair </a></li>
+              <li><a href="services.html">Home Theater Installation/Repair</a></li>
+              <li><a href="services.html">Alarm security System Installation/Repair</a></li>
+              <li><a href="services.html">And More...............</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </div>
+
+ </div>
+    
   
   
         
@@ -235,7 +349,7 @@
 
 
 
-<body>
+
     
 </body>
 </html>
