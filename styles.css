@@ -177,16 +177,16 @@ select {
 }
 
 .footer-serv {
-    background-image: linear-gradient(to right top, #2b2b30, #373d41, #454f4f, #58615c, #70726a);
+    background-image: linear-gradient(to right top, #3b3b47, #39343c, #342e32, #2d2829, #242323);
     color: white;
 }
 
 .footer-serv ul {
-    color: rgb(46, 1, 1);
+    color: white;
 }
 
 .ssa li a{
-    color: rgb(53, 2, 2);
+    color: white;
     font-weight:600;
 }
 
@@ -241,8 +241,9 @@ select {
    
     background-color: rgb(56, 41, 41);
     color: white;
-    padding-top:30px;
+    
     width: 100%;
+    
 }
 
 
@@ -276,3 +277,34 @@ select {
     font-weight: 500;
     font-size: medium;
 }
+
+#broadband {
+    color: white;
+}
+
+.ll a {
+    color:white;
+}
+
+.hh a {
+    color: white;
+}
+.drpDown
+ {
+    background-image: linear-gradient(black, rgb(4, 3, 54));
+    margin-top: 85px;
+    margin-bottom: 85px;
+}
+
+.show a{
+    background-color: black;
+    color: white;
+    width: 250px;
+    font-size: 16px;
+    height: 40px;
+}
+
+.drpDown .btn-primary {
+    width: 250px;
+}
+
